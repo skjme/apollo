@@ -13,6 +13,7 @@ import com.ctrip.framework.apollo.spi.ConfigRegistry;
  * @author Jason Song(song_s@ctrip.com)
  */
 public class ConfigService {
+	// 单例
   private static final ConfigService s_instance = new ConfigService();
 
   private volatile ConfigManager m_configManager;
